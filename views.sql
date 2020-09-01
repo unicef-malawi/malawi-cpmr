@@ -805,7 +805,7 @@ CREATE OR REPLACE VIEW flow_data_osc_view  AS
         (a.values->>'victimknows_relation_sexualviolence')::int victimknows_relation_sexualviolence,
         (a.values->>'strangers_relation_sexualviolence')::int strangers_relation_sexualviolence,
         (a.values->>'referredfrom_self')::int referredfrom_self,
-        (a.values->>'referredfrom_socialwelfare')::int referredfrom_socialwelfare,
+        (a.values->>'referredfrom_socailwelfare')::int referredfrom_socialwelfare,
         (a.values->>'referredfrom_police')::int referredfrom_police,
         (a.values->>'referredfrom_hospital')::int referredfrom_hospital,
         (a.values->>'referredfrom_others')::int referredfrom_others,
